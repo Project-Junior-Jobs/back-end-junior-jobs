@@ -5,6 +5,10 @@
   "repository": "git@github.com:Project-Junior-Jobs/back-end-junior-jobs.git",
   "author": "Dionisio <benevidescursos@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules --cls --rs src/server.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
